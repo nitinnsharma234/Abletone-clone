@@ -37,10 +37,12 @@ const HomePage = () => {
     <div className='max-w-[1600px] mx-auto w-full bg-white mb-20 '>
       <Header />
 
-      <TopSection/>  
-      <GridBar heading={''}/> 
-      <MiddleNavBar/>  
-      <BottomSection/>   
+      <TopSection />
+      <GridBar heading={''} />
+      <MiddleNavBar />
+      <BottomSection />
+
+
     </div>
 
   )
