@@ -1,8 +1,7 @@
-import React from 'react'
-import OverlayTex from './OverlayTex'
 import hero1 from '../../images/hero_1.png'
-import hero3 from '../../images/hero_3.png'
 import hero2 from '../../images/hero_2.png'
+import hero3 from '../../images/hero_3.png'
+import OverlayTex from './OverlayTex'
 
 
 const TopSection = () => {

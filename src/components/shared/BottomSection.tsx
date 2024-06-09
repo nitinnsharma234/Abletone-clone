@@ -1,7 +1,6 @@
-import React from 'react'
-import { bottomMenuList } from '../../models/BottomMenuList'
 import { Link } from 'react-router-dom'
 import { fbIcon, instaIcon, tiktok, xIcon, ytIcon } from '../../icons'
+import { bottomMenuList } from '../../models/BottomMenuList'
 
 const BottomSection = () => {
   return (

@@ -1,7 +1,6 @@
-import React from 'react'
 import ProductCardItem from '../../models/ProductCardItem';
 
-const GridBar = ({ heading }) => {
+const GridBar = () => {
   return (
     <div className='mx-[7rem] pb-[100px]'>
       <h3 className='text-4xl font-bold mb-9'>The latest from Ableton</h3>
@@ -22,7 +21,7 @@ const GridBar = ({ heading }) => {
   )
 }
 
-export const ProductCard = ({ list , marginBtm=''}: { list: ProductCardItem[], marginBtm?:string }) => {
+export const ProductCard = ({ list , }: { list: ProductCardItem[] }) => {
   return (
     <div className={`flex justify-between w-full xs:flex-wrap lg:flex-nowrap `} >
       {

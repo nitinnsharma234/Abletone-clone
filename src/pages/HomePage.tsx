@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react';
 
-import Header from '../components/Header'
-import TopSection from '../components/shared/TopSection.tsx'
+import Header from '../components/Header';
+import BottomSection from '../components/shared/BottomSection.tsx';
 import GridBar from '../components/shared/GridBar.tsx';
 import MiddleNavBar from '../components/shared/MiddleNavBar.tsx';
-import BottomSection from '../components/shared/BottomSection.tsx';
+import TopSection from '../components/shared/TopSection.tsx';
 
 function getWindowDimensions() {
   const { innerWidth: width, innerHeight: height } = window;
@@ -38,7 +38,7 @@ const HomePage = () => {
       <Header />
 
       <TopSection />
-      <GridBar heading={''} />
+      <GridBar  />
       <MiddleNavBar />
       <BottomSection />
 

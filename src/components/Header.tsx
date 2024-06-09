@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../icons/logo.svg'
 import { MenuItem, MenuList } from '../constants/menu'
